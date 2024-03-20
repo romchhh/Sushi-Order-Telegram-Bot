@@ -37,12 +37,20 @@ https://github.com/romchhh/Sushi-Order-Telegram-Bot/assets/123520267/2f28bb7f-b0
 - Python 3.6 or higher
 - Libraries: aiogram
 
-## Setup
+## Installation
 
-1. Clone the repository.
-2. Install the required libraries using `pip install -r requirements.txt`.
-3. Replace placeholders in the `config.py` file with your actual API token, admin IDs, and group ID.
-4. Run the bot using `python main.py`.
+1. Clone this repository to your local machine.
+2. Install the required dependencies by running `pip install -r requirements.txt`.
+3. Set up your Telegram bot token, group ID, admin IDs, session name, API hash, API ID, and other configurations in the `config.py` file.
+
+```python
+TOKEN = 'your telegram bot token'
+GROUP_ID = 'group id where the orders are sent forward'
+ADMIN_IDS = [admin ids here]
+
+```
+
+5. Run the bot using `python main.py`.
 
 ## Contributing
 
